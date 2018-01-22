@@ -1,5 +1,8 @@
 package com.map.woxapptestapp.dagger;
 
+import com.map.woxapptestapp.ui.activiy.MainPresenter;
+import com.map.woxapptestapp.ui.fragment.HistoryFragmentPresenter;
+
 import javax.inject.Singleton;
 
 import dagger.Component;
@@ -12,4 +15,7 @@ import dagger.Component;
 @Component(modules = {AppModule.class})
 public interface AppComponent {
 
+    void inject(MainPresenter presenter);
+
+    void inject(HistoryFragmentPresenter historyFragmentPresenter);
 }

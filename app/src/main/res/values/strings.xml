@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">WoxAppTestApp</string>
+    <string name="app_name">WoxApp-TestApp</string>
+    <string name="no_content">No saved trips</string>
+    <string name="history">History</string>
+    <string name="save_to_history">Save current reid to history?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove_all">Remove All</string>
 </resources>
